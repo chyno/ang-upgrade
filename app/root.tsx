@@ -9,7 +9,7 @@ import {
 import type { MetaFunction } from 'remix';
 
 export const meta: MetaFunction = () => {
-  return { title: 'New Remix App' };
+  return { title: 'John Test app' };
 };
 
 export default function App() {
@@ -25,6 +25,7 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
+        <div>ddddd saosad</div>
         {process.env.NODE_ENV === 'development' && <LiveReload />}
       </body>
     </html>
